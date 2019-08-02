@@ -1,0 +1,10 @@
+/*Setup*/
+@import "./fonts";
+@import "./app";
+
+/* Pages */
+@import "../../pages/homepage/homepage.styles.scss";
+
+/* Components */
+@import "../../components/menu-item/menu-item.styles.scss";
+@import "../../components/directory/directory.styles";
