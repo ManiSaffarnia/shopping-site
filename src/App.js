@@ -1,14 +1,11 @@
-import React from 'react';
+import React from "react";
+import AppRouter from "./routers/AppRouter";
 
-import HomePage from './pages/homepage/homepage.component';
-import './assets/styles/style.scss';
+/**STYLE */
+import "./assets/styles/style.scss";
 
 function App() {
-  return (
-    <div >
-      <HomePage />
-    </div>
-  );
+  return <AppRouter />;
 }
 
 export default App;

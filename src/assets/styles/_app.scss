@@ -1,9 +1,15 @@
-*{
-    padding: 0;
-    margin: 0;
-    direction: rtl;
+* {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
 }
 
-body{
-    font-family: IRANSans;
+body {
+  font-family: IRANSans;
+  padding: 20px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
