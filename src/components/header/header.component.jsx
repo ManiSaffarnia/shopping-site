@@ -6,16 +6,19 @@ import { ReactComponent as Logo } from "../../assets/images/crown.svg";
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
+      {/* LOGO */}
       <Link to="/" className="logo-container">
         <Logo className="logo" />
       </Link>
-      <div className="header-links-wrapper">
+
+      {/* Navbar */}
+      <nav className="header-links-wrapper">
         <Link to="/shop" className="header-link">
           فروشگاه
         </Link>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 
